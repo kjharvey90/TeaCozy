@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+
+
+html {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:22px;
+   color: seashell;
+   background-color:black;
+   opacity:0.7; 
+}
+
+header {
+    height:69px;
+    width: 100%; 
+    margin: auto 0;
+    display: flex;
+    background-color:black;
+    border-bottom: 1px solid seashell;
+    justify-content:space-between;
+    position:fixed;
+   
+
+}
+
+nav {
+    display:flex;
+    width:50%;
+    height:auto;
+    flex-direction:row;
+    justify-content:space-between;
+
+    
+}
+
+
+ul {
+  display:flex;
+  justify-content:space-around;
+  width:100%;
+  align-items:center;
+  
+
+  
+}
+li.navitems {
+   list-style: none;
+   text-decoration:underline;
+   
+}
+
+
+.missionbackground{
+    background-image: url("images/img-berryblitz.webp");
+    width:100%;
+    background-repeat:no-repeat;
+    position:absolute;
+    background-size:cover;
+    top:69px;
+    height:100%;
+    object-fit:cover;
+    
+}
