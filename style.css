@@ -5,6 +5,9 @@
 }
 
 
+
+
+
 html {
    font-family:Arial, Helvetica, sans-serif;
    font-size:22px;
@@ -22,9 +25,21 @@ header {
     border-bottom: 1px solid seashell;
     justify-content:space-between;
     position:fixed;
+    z-index:1;
    
 
 }
+
+.logo {
+    height: 50px; 
+    align-self:center;
+    padding-left:10px;
+    
+}
+
+
+
+
 
 nav {
     display:flex;
@@ -52,15 +67,28 @@ li.navitems {
    
 }
 
+.container {
+    width:100%; 
+    display:flex;
+    justify-content:center;
+    background-color:black;
+}
 
-.missionbackground{
+
+
+
+
+
+.mission{
     background-image: url("images/img-berryblitz.webp");
-    width:100%;
+    width: 90%;
     background-repeat:no-repeat;
     position:absolute;
     background-size:cover;
     top:69px;
     height:100%;
     object-fit:cover;
-    
+    background-color:black;
 }
+
+
